@@ -3,3 +3,52 @@
 body {
   padding: 30px;
 }
+
+
+/* Classes for fieldset and labels that delineate each component */
+.marker {
+  margin: 0;
+  font-style: italic;
+  font-size: 14px;
+  color: #b4b4b4;
+  background-color: #EFF1F2;
+  padding: 1px 8px;
+  /*+border-radius: 6px;*/
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+}
+
+.componentMarker {
+  margin: 0;
+  font-style: italic;
+  font-size: 14px;
+  color: #b4b4b4;
+  background-color: #dadada;
+  padding: 1px 8px;
+  /*+border-radius: 6px;*/
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+}
+
+fieldset
+{
+  border: solid 1px #dadada;
+  border-radius: 6px;
+  /*background-color: #ffb73e !important;*/
+}
+
+.fieldsetBorder
+{
+  border: solid 1px #dadada;
+  border-radius: 6px;
+  /*background-color: #ffb73e !important;*/
+}
+
+/*  Indents content to allow for delineation of each component's content area */
+.indent{
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+}
